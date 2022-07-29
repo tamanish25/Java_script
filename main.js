@@ -28,4 +28,13 @@ console.log(_name1);
 
 console.log(_name1.toLowerCase());
 
+//slicing in string
+
+let name3 = "abcdefghijklmmnopqrstuvwxyz"
+console.log(name3.slice(0,4));
+console.log(name3.slice(4));
+console.log(name3.slice(4,10));
+console.log(name3.slice(-4,-8));
+
+
 
