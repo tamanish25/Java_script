@@ -60,15 +60,15 @@ if (fName[0]==="M" || age2 >18);
 let winner_number = 9;
 let userGuess= +prompt("Enter the number"); //plus sign for number and without plus is string
 
-if (userGuess =34= winner_number){
+if (userGuess = winner_number){
     console.log("YOu Win");
     }
     
-else if(userGuess>winner_number){
+    else if(userGuess>winner_number){
     
         console.log("Guessed number is higher");
         }
-else if(userGuess<winner_number){
+    else if(userGuess<winner_number){
     
             console.log("Guessed number is lower");
             }
