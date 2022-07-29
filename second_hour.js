@@ -81,3 +81,12 @@ let alsoNumBig = 32476246123461283641234n;
 //Bigint operations are done only with Bigint
 console.log(myNumber + alsoNumBig);
 
+
+
+// Booleans 
+// Comperasion operations
+
+let a1 =10;
+let a2 = 20;
+console.log(a1> a2);
+console.log(a1<a2);
