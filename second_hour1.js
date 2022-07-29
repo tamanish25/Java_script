@@ -37,3 +37,20 @@ let age1 =20;
  //** *similar opration using ternary operator
 let drink = age1 >5 ? "coffee" : "milk";
   console.log(drink);
+
+// and operator
+let fName = "Manish";
+let age2 = 17 ;
+if (fName[0]==="M" && age2 >18)
+{
+    console.log("Name starts with M and and participant is above 18");
+} 
+else {
+    console.log("Not selected");
+}
+
+// or operator
+if (fName[0]==="M" || age2 >18);
+{
+    console.log("Name starts with M and and participant is above 18");
+}
