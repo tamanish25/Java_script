@@ -31,3 +31,20 @@ console.log("num1 is of type" ,typeof num1);
  let num2 = "123231";
  num2 = Number(num2); // use of Number function
  console.log("num2 is of type" ,typeof num2);
+
+//  String concentiantion
+
+let string1="Manish ";
+let string2 ="Singh";
+
+let fullName = string1 + " "+ string2;
+ console.log(fullName);
+
+//  Template string 
+
+sent = "My name is " + fullName + " and my age is " + age;
+console.log(sent);
+// ***************************************
+let aboutMe = `You are ${fullName} and your age is ${age}`;
+// ****************************************
+console.log(aboutMe);
