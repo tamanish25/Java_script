@@ -23,3 +23,17 @@ if (name){
     console.log(name);}
     else{console.log("Empty name");
 }
+
+// ternary operator
+
+let age1 =20;
+// let drink;
+// if (age >=5){
+//     drink = "coffee";
+// }
+// else{drink = "milk"}
+
+
+ //** *similar opration using ternary operator
+let drink = age1 >5 ? "coffee" : "milk";
+  console.log(drink);
