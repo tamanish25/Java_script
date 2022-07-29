@@ -90,3 +90,17 @@ let a1 =10;
 let a2 = 20;
 console.log(a1> a2);
 console.log(a1<a2);
+
+// == vs ""===  **checks value as well data types
+
+console.log(a1==a2);
+
+let a4 = "34";
+let a5 = 34;
+console.log(a4==a5);
+console.log(a4===a5);
+
+// != vss "!== **checks value as well data types
+console.log(a4!=a5);
+console.log(a4!==a5);
+
