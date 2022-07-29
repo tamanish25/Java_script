@@ -48,3 +48,36 @@ console.log(sent);
 let aboutMe = `You are ${fullName} and your age is ${age}`;
 // ****************************************
 console.log(aboutMe);
+
+//undefined
+let lastName;
+var num4;
+console.log(typeof lastName);
+lastName ="Mani";
+console.log(typeof lastName,lastName);
+
+//***  const notDefined; you cannot leave const variable undefined 
+
+//null
+
+var myData = null;
+console.log(typeof myData, myData);
+// **** Type of null shows object is a bug 
+
+myData =1234;
+console.log(typeof myData, myData);
+
+// Bigint 
+
+let myNumber = 123;
+console.log(myNumber);
+console.log(Number.MAX_SAFE_INTEGER) // to see how much size of number we can store in integer
+
+//**BigInt allows us to store very big numbers */
+
+myNumber = BigInt(2333333333333333333312312312312312312312);
+let alsoNumBig = 32476246123461283641234n;
+
+//Bigint operations are done only with Bigint
+console.log(myNumber + alsoNumBig);
+
