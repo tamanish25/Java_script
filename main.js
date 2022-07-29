@@ -8,7 +8,7 @@ console.log(num + 25);
 
 //to remove spaces from string
 
-let name1 = "            Germany      ";
+let name1 = "            GerMany      ";
 console.log(name1.length);
 let name2= name1.trim();
 console.log(name2);
@@ -17,5 +17,15 @@ console.log(name2.length);
 // to print the last letter of the string
 
 console.log(name2[name2.length-1]);
+
+//to upper case all characters
+
+console.log(name1.toLocaleUpperCase().trim());
+let _name1=name1.toLocaleUpperCase().trim();
+console.log(_name1);
+
+// to lower all characters 
+
+console.log(_name1.toLowerCase());
 
 
