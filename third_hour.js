@@ -98,3 +98,31 @@ do{
 
 }while(i<=9);
 console.log("Value of the number is ",i);
+
+
+// Introduction to arrays 
+let fruits = 'Apple';
+console.log(fruits);
+
+// ordered collection of items 
+
+let flower =['Rose','lilly','lotus'];
+ console.log(flower);
+ console.log(flower[2])
+
+ let mix = ["apple",null,undefined,123324];
+ console.log(mix);
+
+ mix [1]=123;        // Arrays are mutable and reference type (Object)
+ mix [2]="MAN"
+ console.log(mix);
+
+ console.log(typeof flower);
+
+ console.log(Array.isArray(flower)); // Array.isArray(flower) to check for arrays
+
+
+
+
+ 
+
