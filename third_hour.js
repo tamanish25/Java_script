@@ -66,3 +66,25 @@ for(let i = 0 ; i<=10 ; i++)
 }
 
 console.log(`Sum of first 10 natural number is ${mSum}`);
+
+
+//Break keyword
+// for(let i = 1 ; i<=10 ; i++)
+// {
+//     if(i==4){
+//     break;    // break statement 
+//     }
+//     console.log(i);
+// }
+
+console.log("Hello there");
+
+//continue keyword
+for(let i = 1 ; i<=10 ; i++)
+{
+    if(i==4){
+    continue;    // continue statement 
+    }
+    console.log(i);
+}
+
