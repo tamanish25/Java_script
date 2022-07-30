@@ -40,12 +40,29 @@ while (i<=24){
 }
 console.log(`Current value of i is ${i}`);
 
-// Sum of first n natural numbers 
+// Sum of first n natural numbers using whil loop
 
 let n= 0;
 let sum=0;
 while(n<10){
+    n++;
     sum+=n;
 }
 
 console.log(`Sum of first 10 natural number is ${sum}`);
+//  for loop 
+
+for(let n =0;n<=10;n++) 
+{
+    console.log(n);
+}
+
+//sum of first n natural numbers using for loop
+
+mSum =0;
+for(let i = 0 ; i<=10 ; i++)
+{
+    mSum+=i;
+}
+
+console.log(`Sum of first 10 natural number is ${mSum}`);
