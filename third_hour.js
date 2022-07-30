@@ -1,3 +1,5 @@
+
+'use strict';
 //switch statement
 let day = 5;
 
@@ -59,7 +61,7 @@ for(let n =0;n<=10;n++)
 
 //sum of first n natural numbers using for loop
 
-mSum =0;
+let mSum =0;
 for(let i = 0 ; i<=10 ; i++)
 {
     mSum+=i;
@@ -140,6 +142,38 @@ console.log(flower);
 
 flower.shift();
 console.log(flower);       // shift statement adds elements in the front
+
+
+// ************************************************************************************
+// primitive vs reference data types
+
+
+// For primitive type 
+let num1 = 6;
+let num2 = num1;
+console.log("value of num1 is ",num1);
+console.log("value of num2 is ",num2);
+
+num1++;
+console.log("After increamenting num1");
+console.log("value of num1 is ",num1);
+console.log("value of num2 is ",num2);
+
+
+//  For reference type
+let array1 = ["item1","item2"];
+let array2 = array1;
+console.log("array 1 = ", array1);
+console.log("array 2 = ", array2);
+
+array1.push("item3");
+
+console.log('After adding item in array1')  // Everything changes in item refernce data types when we change the data
+console.log("array 1 = ", array1);
+console.log("array 2 = ", array2);
+
+
+
 
 
 
