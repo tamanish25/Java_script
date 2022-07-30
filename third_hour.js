@@ -133,6 +133,13 @@ console.log(flower.pop());
 
 console.log(flower);
 
+// shift and unshift statements
+
+flower.unshift("Jerbera");  // unshift statement adds elements in the front 
+console.log(flower);
+
+flower.shift();
+console.log(flower);       // shift statement adds elements in the front
 
 
 
