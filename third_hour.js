@@ -122,7 +122,20 @@ let flower =['Rose','lilly','lotus'];
  console.log(Array.isArray(flower)); // Array.isArray(flower) to check for arrays
 
 
+//Push and Pop opertations in array
+console.log(flower);
+
+flower.push("jerbera");      // using push function 
+
+console.log(flower);
+
+console.log(flower.pop());
+
+console.log(flower);
 
 
- 
+
+
+
+
 
