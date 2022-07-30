@@ -88,3 +88,13 @@ for(let i = 1 ; i<=10 ; i++)
     console.log(i);
 }
 
+
+//  do while loop
+
+i =10;
+do{
+    console.log(i);
+    i++;
+
+}while(i<=9);
+console.log("Value of the number is ",i);
