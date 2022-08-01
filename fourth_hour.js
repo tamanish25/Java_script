@@ -67,6 +67,19 @@ console.log(fruits4);
  // but we cannot assign new things by assigning new [] square brackets
  // fruits4 =['orange']; this will give an error
 
+ //************************************ */
+ //while loop in array
+
+ const newArray=[...array6];
+ let n = 0;
+  while (n < newArray.length)
+  {
+    console.log(newArray[n]);
+    n++;
+  }
  
+
+
+  //
 
  
