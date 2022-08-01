@@ -86,4 +86,19 @@ console.log(fruits4);
     console.log(item);
   }
 
+
+   //for in loop in array gives the index of the array element
+
+   for(let index in newArray){
+    console.log(index);
+    console.log(newArray[index]);
+  }
+
+
+  
+  
+
+
+
+
  
