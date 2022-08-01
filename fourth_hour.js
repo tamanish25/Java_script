@@ -95,7 +95,16 @@ console.log(fruits4);
   }
 
 
-  
+  // array destructuring
+
+  const myArray = ['value1','value2','value3'] ;
+  let [myvar1,myvar2]= myArray;
+  console.log(myvar1);
+  console.log(myvar2);
+
+//******************************************************* */
+let [myvar5,...newMyArray] = myArray;
+console.log(newMyArray);
   
 
 
