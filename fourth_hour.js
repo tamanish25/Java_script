@@ -80,6 +80,10 @@ console.log(fruits4);
  
 
 
-  //
+  //for of loop in array
+
+  for(let item of newArray){
+    console.log(item);
+  }
 
  
