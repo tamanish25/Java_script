@@ -63,6 +63,12 @@ obj1[key2] = value2;
 
 console.log(obj1);
 
+//spread operator in objects
+
+const newObject ={...obj1,key69:"value78",key22:"Beautiful",...person};
+console.log(newObject);
+
+
 
 
 
