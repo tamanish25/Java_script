@@ -69,6 +69,20 @@ const newObject ={...obj1,key69:"value78",key22:"Beautiful",...person};
 console.log(newObject);
 
 
+const newIteration ={..."abcdefgh"}
+console.log(newIteration);
+
+
+//Object destructuring
+const band ={
+    bandName: "led zepplin",
+    famoussing : "stairway to heaven",
+    year : 1968
+};
+const {bandName,famoussing,...restValues} = band;
+// (bandName) = 'queen';
+console.log(bandName);
+console.log(restValues);
 
 
 
