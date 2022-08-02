@@ -33,6 +33,13 @@ for (let key in person){
 
 console.log(Object.keys(person));  //*
 
+//for of in objects
+
+for(let key of Object.keys(person))
+{
+    console.log(person[key]);
+}
+
 
 
 
