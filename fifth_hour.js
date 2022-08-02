@@ -11,8 +11,23 @@ console.log(person.age);
 
  // Bracket Vs dot notation 
 
- console.log(person["name"]);
- console.log(person.name);
+//  console.log(person["name"]);  // bracket notation
+//  console.log(person.name);     // dot notation 
+
+//  when the name is big then use bracket notation 
+
+// person["person hobbies"] = "reading";
+
+//************************************************* */
+
+// for in loop in Object
+
+for (let key in person){
+    // console.log(person[key]);
+
+    console.log (`${key}: ${person[key]}`  )
+}
+
 
 
 
