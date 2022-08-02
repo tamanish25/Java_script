@@ -29,5 +29,12 @@ for (let key in person){
 }
 
 
+// Object funtion 
+
+console.log(Object.keys(person));  //*
+
+
+
+
 
 
