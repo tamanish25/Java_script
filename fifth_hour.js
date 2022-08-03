@@ -84,5 +84,17 @@ const {bandName,famoussing,...restValues} = band;
 console.log(bandName);
 console.log(restValues);
 
+// Object inside array
+
+const users =[
+    {userID :1, firstName:'harshit',gender:'male'},
+    {userID :2,firstName: 'mohit',gender:'male'},
+    {userID :3,firstName: 'nitish',gender:'male'},
+];
+
+for(let user of users)
+{
+    console.log(user);
+}
 
 
