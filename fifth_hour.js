@@ -135,9 +135,26 @@ function subtractValue(number1,number2){
     return number1-number2;
 }
 
-
 const subtractthenumbers =  subtractValue(1000,20);
 console.log(subtractthenumbers);
+
+
+// Function which can take values and return 
+
+function OddEven(num2){
+    if (num2%2 === 0)
+    {
+        return true;
+    }
+    else{
+        return false
+    }
+
+}
+
+console.log(OddEven(6))
+
+
 
 
 
