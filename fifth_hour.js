@@ -104,3 +104,22 @@ console.log(user1firstname,userID);
 console.log(user3Gender);
 
 
+// Functions
+
+function singBirthdaySong(){
+console.log("Happy Birthday to you ");
+
+}
+
+singBirthdaySong();
+
+// Function to add two numbers
+
+function twoPlusflour(){
+    console.log(2+4);
+}
+
+
+
+
+
