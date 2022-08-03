@@ -147,13 +147,20 @@ function OddEven(num2){
         return true;
     }
     else{
-        return false
+        return false;
     }
 
 }
 
-console.log(OddEven(6))
+console.log(OddEven(6));
 
+// to take input as string
+
+function firstChar(char1){
+    return char1[0];
+}
+
+console.log(firstChar("Manish"));
 
 
 
