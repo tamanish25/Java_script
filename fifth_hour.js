@@ -115,9 +115,20 @@ singBirthdaySong();
 
 // Function to add two numbers
 
+// function twoPlusflour(){
+//     console.log(2+4);
+// }
+
+// Function to return values
+
 function twoPlusflour(){
-    console.log(2+4);
-}
+       return(2+4);
+     }
+
+const returnedVlaue = twoPlusflour();
+console.log(returnedVlaue);
+
+
 
 
 
