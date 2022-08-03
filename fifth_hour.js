@@ -69,7 +69,7 @@ const newObject ={...obj1,key69:"value78",key22:"Beautiful",...person};
 console.log(newObject);
 
 
-const newIteration ={..."abcdefgh"}
+const newIteration ={..."abcdefgh"};
 console.log(newIteration);
 
 
@@ -162,6 +162,19 @@ function firstChar(char1){
 
 console.log(firstChar("Manish"));
 
+
+// function to take input as array
+let count = -1;
+function searchthis(array1,numb1)
+{
+    for(let num of array1)
+    if (num===numb1){
+        count=0;
+    }
+    
+}
+searchthis([0,2,3,4,5,6,7,8,9,10,11,12,13,14],15);
+console.log(count);
 
 
 
