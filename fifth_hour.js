@@ -129,7 +129,15 @@ const returnedVlaue = twoPlusflour();
 console.log(returnedVlaue);
 
 
+// reusable functions
 
+function subtractValue(number1,number2){
+    return number1-number2;
+}
+
+
+const subtractthenumbers =  subtractValue(1000,20);
+console.log(subtractthenumbers);
 
 
 
