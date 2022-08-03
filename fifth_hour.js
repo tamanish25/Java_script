@@ -97,4 +97,10 @@ for(let user of users)
     console.log(user);
 }
 
+// Nested destructuring
+
+const [{firstName: user1firstname,userID},,{gender: user3Gender}]= users;
+console.log(user1firstname,userID);
+console.log(user3Gender);
+
 
