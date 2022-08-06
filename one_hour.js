@@ -40,3 +40,6 @@ console.log(name3.slice(-4,-8));
 
 
 
+
+
+
