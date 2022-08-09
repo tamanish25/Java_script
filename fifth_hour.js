@@ -194,6 +194,8 @@ const singHappyBirthday = () => {
 
 singHappyBirthday();
 
+//Arrow Funtion
+
 const sumThreeNumbers = (number1, number2, number3) => {
     return number1 + number2 + number3;
 }
@@ -223,5 +225,8 @@ const findTarget = (array, target) => {
     }
     return -1;
 }
+
+
+
 
 
