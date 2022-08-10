@@ -47,3 +47,20 @@ const findTarget = (array, target) => {
  function hello(){
     console.log("Hello World");
  }
+
+function app() {
+    const myFunc=() =>{
+        console.log("Hello from myFuc");
+    }
+    const addTwo= (num1,num2)=>{
+        return num1+num2;
+    }
+    const multiplyTwo= (num1,num2)=>num1*num2;
+    console.log("inside app");
+    myFunc();     //Functions can be called inside a function.
+
+}
+ 
+app();
+
+
