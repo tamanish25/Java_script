@@ -132,3 +132,29 @@ function addTwo(a,b=0){
 const ans = addTwo(4,9);
 console.log(ans);
 }
+
+
+{
+    // Rest Parameters
+
+     function myFunc(a,b,...c){ //c is taking rest paratmeter
+        console.log(`a is ${a}`);
+        console.log(`b is ${b}`);
+        console.log(`c is ${c}`);
+
+     }
+     myFunc(3,4,5,6,7,8,9);
+   
+
+     function addAll(...d){
+     let sum = 0;
+
+     for (let i = 0; i < d.length; i++) {
+      sum += d[i];
+     }
+     return sum;
+     }
+    const ans = addAll(3,4,5,6,7,8,9,9);
+
+    console.log("Sum of all the numbers are ",ans);
+}
