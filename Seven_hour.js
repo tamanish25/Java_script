@@ -17,3 +17,23 @@ function printData({firstName,gender}){
 printDetails(person);
 printData(person);
 }
+
+
+{
+//CallBack Function
+
+function myFunk(callback){
+    console.log("Hello World");
+    callback();
+    
+
+}
+ function myFunk1(){
+    console.log("Insert function in a ")
+
+ }
+myFunk(myFunk1);
+
+}
+
+
