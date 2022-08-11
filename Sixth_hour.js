@@ -121,3 +121,14 @@ function myApp1(){let firName = 'Function '
     console.log(firName); // will give error
 }
 myApp1();
+
+
+{
+// Default Parameters
+
+function addTwo(a,b=0){
+    return a + b;
+}
+const ans = addTwo(4,9);
+console.log(ans);
+}
