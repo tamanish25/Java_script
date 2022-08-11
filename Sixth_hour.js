@@ -81,3 +81,43 @@ function myApp()
 myApp();
 
 
+//Block scope Vs Function scope
+
+
+//'let' and 'const' are block scope and 'var' is a function scope
+
+
+{
+    //block one
+let firstName = 'harshit';
+console.log(firstName);
+}
+
+// console.log(firstName); This line will give you an error 
+
+
+{
+    //block Two
+let firstName = 'Mesha';
+console.log(firstName);
+}
+
+
+{
+    //Block three
+    var firstName1 = 'Sanskar';
+}
+
+console.log(firstName1); // this will exceture because var is a function scope
+
+
+//Example the function
+
+function myApp1(){let firName = 'Function '
+    if(true){
+        let firName = 'Maine Seekha';
+        console.log(firName);
+    }
+    console.log(firName); // will give error
+}
+myApp1();
