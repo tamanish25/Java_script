@@ -64,3 +64,20 @@ function app() {
 app();
 
 
+//Lexical Scope
+
+function myApp()
+{   const myVar = "value1";
+    function myFunk (){
+        const myVar="value50";
+        console.log("Inside myFunk",myVar); // myVar is searched inside a lexical environment
+    }
+    const myFunk1 = function(){}
+    const myFunk2 = () => {}
+    console.log(myVar);
+    myFunk();
+}
+
+myApp();
+
+
