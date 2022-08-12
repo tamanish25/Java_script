@@ -38,7 +38,7 @@ myFunk(myFunk1);
 
 
 {
-//functiion returing function
+//function returing function
 
 function myFunc(){
     function hello(){
@@ -52,3 +52,48 @@ console.log(ans());
 }
 
 
+// Higher order function  are those functions which take funtion and return funciton
+
+// *************************************************************************
+
+//Important array Methods
+  
+// forEach
+{const numbers=[1,2,3,4,5];
+ 
+ function multiplyBy2(number,index){
+    console.log("index is  ", index);
+    console.log(number*2);
+
+ }
+//  multiplyBy2(numbers[0],0);
+//  multiplyBy2(numbers[2],2);
+//  for (let item=0;item<numbers.length;item++)
+//  {
+//  multiplyBy2(numbers[item],item)};
+
+
+numbers.forEach(multiplyBy2);  // forEach funtion passes index and item to the function
+}
+
+
+{
+    const numbers = [1,2,3,4,5,6,7];
+    numbers.forEach(function(number,index){
+        console.log("index is  ", index);
+        console.log(number*2);
+    })
+}
+
+
+{
+    const users=[
+        {firstName : "Manish", age:21},
+        {firstName : "Arihant ", age:33},
+        {firstName : "Shashank", age:45},
+        {firstName : "Bhola", age:99}
+    ];
+    users.forEach(function(user){
+        console.log(user.firstName);
+    })
+}
