@@ -94,6 +94,18 @@ numbers.forEach(multiplyBy2);  // forEach funtion passes index and item to the f
         {firstName : "Bhola", age:99}
     ];
     users.forEach(function(user){
-        console.log(user.firstName);
+        console.log(user.firstName,user.age);
     })
+}
+
+
+{
+    // map method 
+
+    const numbers=[1,2,3,4,5,6,7];
+   const squareNumber= numbers.map(function(number){
+        return number*number;
+
+    })
+    console.log(squareNumber);
 }
