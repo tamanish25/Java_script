@@ -103,9 +103,23 @@ numbers.forEach(multiplyBy2);  // forEach funtion passes index and item to the f
     // map method 
 
     const numbers=[1,2,3,4,5,6,7];
-   const squareNumber= numbers.map(function(number){
-        return number*number;
+   const squareNumber= numbers.map(function(number,index){
+        return `Index :${index} Square: ${number*number}`;
 
     })
     console.log(squareNumber);
+}
+
+
+
+{
+    // filter method  : Always return a boolean value
+
+    const numbers = [1,2,3,4,5,6];
+    const isEven = function(number){
+        return number % 2 ===0;
+    }
+    const evenNUmbers = numbers.filter(isEven);
+    console.log(evenNUmbers);
+
 }
