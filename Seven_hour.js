@@ -123,3 +123,15 @@ numbers.forEach(multiplyBy2);  // forEach funtion passes index and item to the f
     console.log(evenNUmbers);
 
 }
+
+
+{
+    // Reduce Method 
+
+    const array  =[2,3,4,5,6,99];
+    const greatestNumber=array.reduce((accumulator,reduce)=>{
+        if (accumulator > reduce){return accumulator;}
+                else{ return reduce;}
+    })
+    console.log(`The greatest number in the array is ${greatestNumber}`)
+}
