@@ -135,3 +135,20 @@ numbers.forEach(multiplyBy2);  // forEach funtion passes index and item to the f
     })
     console.log(`The greatest number in the array is ${greatestNumber}`)
 }
+
+{
+    // Sorting
+
+    // sort() only sort alphabets and Capital letter first but dont sort numbers 
+
+    array1 = ['cat','dog','hat','ball','parrot'];
+    console.log(array1);
+    console.log(array1.sort());
+
+
+    num=[43,54,34,76,99,100,2,3,1,55,64,90];
+    console.log(num);
+    num.sort((a,b)=>a-b);  // for sorting the number this system in ascending order and b-a for decending order
+    console.log(num);
+
+}
