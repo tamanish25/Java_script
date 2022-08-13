@@ -151,4 +151,22 @@ numbers.forEach(multiplyBy2);  // forEach funtion passes index and item to the f
     num.sort((a,b)=>a-b);  // for sorting the number this system in ascending order and b-a for decending order
     console.log(num);
 
+
+    //Sorting in an object
+
+    product=[
+        {productCode:1,productName:'P1',price:200},
+        {productCode:2,productName:'P2',price:4500},
+        {productCode:3,productName:'P3',price:89900},
+        {productCode:4,productName:'P4',price:10},
+        {productCode:5,productName:'P5',price:100000}
+    ];
+    console.log(product);
+    sortInAscending = product.slice(0).sort((a,b)=>
+    {return a.price-b.price});
+    console.log(sortInAscending);
+
+    sortInDescending = product.slice(0).sort((a,b)=>
+    {return b.price-a.price});
+    console.log(sortInDescending);
 }
