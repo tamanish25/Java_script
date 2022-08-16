@@ -226,3 +226,20 @@ const myArray = [1,2,3,4,5,6,7,8];
 myArray.fill(0,2,5);
 console.log(myArray);
 }
+
+
+{
+ //********* */ splice method ***********
+// start , delete , insert 
+
+const myArray = ['item1', 'item2', 'item3','item4'];
+
+// delete
+const deletedItem = myArray.splice(1, 2);
+console.log("deleted item", deletedItem);
+console.log(myArray);
+}
+
+
+
+
