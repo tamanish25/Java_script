@@ -205,6 +205,8 @@ numbers.forEach(multiplyBy2);  // forEach funtion passes index and item to the f
     console.log(ans);
    
 }
+
+
 {
     // some method
 const userCart = [
@@ -216,4 +218,11 @@ const userCart = [
 
 const ans = userCart.some((cartItem)=>cartItem.price > 100000);
 console.log(ans);
+}
+
+
+{// fill method
+const myArray = [1,2,3,4,5,6,7,8];
+myArray.fill(0,2,5);
+console.log(myArray);
 }
