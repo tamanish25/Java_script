@@ -247,15 +247,40 @@ console.log(myArray);
      console.log(myArray);
            
 }
+
 {
-    {
         // insert and delete 
         const myArray = ['item1', 'item2', 'item3','item4'];   
         const deletedItem = myArray.splice(1, 2, "inserted item1", "inserted item2")
         console.log("delted item", deletedItem);
         console.log(myArray);
-    } 
-    
 }
+
+{
+ {
+// iterables 
+// jispe hum for of loop laga sakein
+// string , array are iterable 
+
+const firstName = "Harshit";
+for(let char of firstName){
+    console.log(char);
+}
+ }
+ {
+const items = ['item1', 'item2', 'item3'];
+for(let item of items){
+    console.log(item);
+}
+ }
+
+// we can only iterate on on which we can run for loop and we can access through length property
+// objects are not iterable**********************************
+
+
+
+}
+    
+
 
 
