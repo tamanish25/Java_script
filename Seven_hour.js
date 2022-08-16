@@ -240,6 +240,22 @@ console.log("deleted item", deletedItem);
 console.log(myArray);
 }
 
-
+{ 
+    // insert
+     const myArray = ['item1', 'item2', 'item3','item4'];      
+     myArray.splice(2, 0,'inserted item');
+     console.log(myArray);
+           
+}
+{
+    {
+        // insert and delete 
+        const myArray = ['item1', 'item2', 'item3','item4'];   
+        const deletedItem = myArray.splice(1, 2, "inserted item1", "inserted item2")
+        console.log("delted item", deletedItem);
+        console.log(myArray);
+    } 
+    
+}
 
 
