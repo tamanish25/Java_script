@@ -170,3 +170,24 @@ numbers.forEach(multiplyBy2);  // forEach funtion passes index and item to the f
     {return b.price-a.price});
     console.log(sortInDescending);
 }
+
+
+{
+    console.log("Manish")
+    
+    
+
+}
+
+{//Find method
+    const users = [
+        {userId : 1, userName: "harshit"},
+        {userId : 2, userName: "harsh"},
+        {userId : 3, userName: "nitish"},
+        {userId : 4, userName: "mohit"},
+        {userId : 5, userName: "aaditya"},
+    ];
+    
+    const myUser = users.find((user)=>user.userId===3);
+    console.log(myUser);
+}
