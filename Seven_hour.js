@@ -277,7 +277,15 @@ for(let item of items){
 // we can only iterate on on which we can run for loop and we can access through length property
 // objects are not iterable**********************************
 
-
+{
+    {
+        // array like object 
+        
+        const firstName = "harshit";
+        console.log(firstName.length);
+        console.log(firstName[2]);
+        }
+}
 
 }
     
