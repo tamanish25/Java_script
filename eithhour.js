@@ -93,7 +93,8 @@ console.log(person.get(1));   // to get the value of key 1
 for(let key of person.keys()){
     console.log(key, typeof key);
 }
-for(let [key, value] of person){
+for(let [key, value] of person){ 
+    // destructuring format
     // console.log(Array.isArray(key));
     console.log(key, value)
 }
@@ -108,7 +109,7 @@ const person1 = {
 }
 const person2 = {
     id: 2,
-    firstName: "harshta"
+    firstName: "harshita"
 }
 
 const extraInfo = new Map();
@@ -119,4 +120,22 @@ console.log(person1.id);
 console.log(extraInfo.get(person1).gender);
 console.log(extraInfo.get(person2).gender);
 }
+}
+
+
+{
+// clone using Object.assign 
+
+// memory  
+
+const obj = {
+    key1: "value1",
+    key2: "value2"
+}
+
+const obj2 = {'key69': "value69",...obj};
+// obj2 = Object.assign({'key69': "value69"}, obj);
+obj.key3 = "value3";
+console.log(obj);
+console.log(obj2);
 }
