@@ -134,8 +134,25 @@ const obj = {
 }
 
 const obj2 = {'key69': "value69",...obj};
-// obj2 = Object.assign({'key69': "value69"}, obj);
+// obj2 = Object.assign({'key69': "value69"}, obj);  another method of cloning
 obj.key3 = "value3";
 console.log(obj);
 console.log(obj2);
 }
+
+
+
+{
+    // optional chaining  (?.) question mark dot  to avoid the null or undefined values error
+
+const user  = {
+    firstName: "harshit",
+    // address: {houseNumber: '1234'}
+}
+
+
+
+console.log(user?.firstName);
+console.log(user?.address?.houseNumber);
+}
+
