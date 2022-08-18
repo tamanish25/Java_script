@@ -1,11 +1,14 @@
 {// Sets (it is iterable)
 // store data  
 // sets also have its own methods
-// No index-based access 
+// No index-based access   console.log(number[2])
 // Order is not guaranteed
-// unique items only (no duplicates allowed)
-{const items = ['item1', 'item2', 'item3'];
-const numbers = new Set();
+// unique items only (no duplicates allowed)  new Set([1,2,3,4,5])
+{
+const items = ['item1', 'item2', 'item3'];
+
+const numbers = new Set(); /// this is how set are made *********
+
 numbers.add(1);
 numbers.add(2);
 numbers.add(3);
@@ -13,15 +16,19 @@ numbers.add(4);
 numbers.add(5);
 numbers.add(6);
 numbers.add(items);
-if(numbers.has(1)){
-    console.log("1 is present")
+if(numbers.has(1)) // for searching th element in set
+{
+    console.log("1 is present");
 }else{
-    console.log("1 is not present")
+    console.log("1 is not present");
 }
+
 for(let number of numbers){
     console.log(number);
  }
+
 }
+
 
  {
 const myArray = [1,2,4,4,5,6,5,6];
@@ -34,4 +41,82 @@ for(let element of uniqueElements){
 console.log(length);
 }
 
+}
+
+{// Maps
+// map is an iterable
+
+// store data in ordered fashion
+
+// store key value pair (like object)
+// duplicate keys are not allowed like objects
+
+
+// different between maps and objects
+
+// objects can only have string or symbol
+// as key 
+
+// in maps you can use anything as key
+// like array, number, string 
+
+// object literal 
+// key -> string 
+// key -> symbol
+{
+const person = {
+    firstName : "Manish",
+    age: 27,
+    1:"one"
+}
+console.log(person.firstName);
+console.log(person["firstName"]);
+console.log(person[1]);
+for(let key in person){      // for checking the type of key values
+    console.log(typeof key);
+}
+
+}
+
+{
+
+//  Map storing key value pair 
+
+const person = new Map();
+person.set('firstName', 'Manish');
+person.set('age', 27);
+person.set(1,'one');
+person.set([1,2,3],'onetwothree');
+person.set({1: 'one'},'onetwothree');
+console.log(person);
+console.log(person.get(1));   // to get the value of key 1
+for(let key of person.keys()){
+    console.log(key, typeof key);
+}
+for(let [key, value] of person){
+    // console.log(Array.isArray(key));
+    console.log(key, value)
+}
+
+}
+
+{
+
+const person1 = {
+    id: 1,
+    firstName: "harshit"
+}
+const person2 = {
+    id: 2,
+    firstName: "harshta"
+}
+
+const extraInfo = new Map();
+extraInfo.set(person1, {age: 8, gender: "male"});
+extraInfo.set(person2, {age: 9, gender: "female"});
+// console.log(userInfo);
+console.log(person1.id);
+console.log(extraInfo.get(person1).gender);
+console.log(extraInfo.get(person2).gender);
+}
 }
