@@ -208,3 +208,19 @@ console.log(user?.address?.houseNumber);
       }
       hello.call();
     }
+
+    { //about
+        function about(hobby, favMusician){
+            console.log(this.firstName, this.age, hobby, favMusician);
+        }
+        const user1 = {
+            firstName : "harshit",
+            age: 8,   
+        }
+        const user2 = {
+            firstName : "mohit",
+            age: 9,
+            
+        }
+        about.call(user1,"palying guitar","Elvis"); //**************** */
+    }
