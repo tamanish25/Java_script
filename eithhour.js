@@ -187,3 +187,16 @@ console.log(user?.address?.houseNumber);
     
     
     }
+
+    {  // this   it will give the window object "this" and "window object" is same
+       console.log(this);
+
+      console.log(window);
+//    {"use strict";   it will add the function in the window object 
+//     function myFunc(){
+    
+//      console.log(this);
+//        }
+//     myFunc(); 
+    }
+}
