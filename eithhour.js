@@ -199,4 +199,12 @@ console.log(user?.address?.houseNumber);
 //        }
 //     myFunc(); 
     }
-}
+
+    {
+      // .call method
+      function hello(){
+        console.log("Hello world");
+
+      }
+      hello.call();
+    }
