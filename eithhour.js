@@ -229,5 +229,9 @@ console.log(user?.address?.houseNumber);
         // apply
 
         about.apply(user2,["harmonica","Mj"]); //************ */
+
+        //bind  it returns a function
+        const func = about.bind(user2,"guitar","batch");
+        func();
        
     }
