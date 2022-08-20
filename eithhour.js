@@ -223,4 +223,11 @@ console.log(user?.address?.houseNumber);
             
         }
         about.call(user1,"palying guitar","Elvis"); //**************** */
+    
+
+    
+        // apply
+
+        about.apply(user2,["harmonica","Mj"]); //************ */
+       
     }
